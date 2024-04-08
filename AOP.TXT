@@ -1,0 +1,16 @@
+//Arithmetic operators
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;   //variable declaretion
+clrscr();
+printf("\nenter a value for a : ");
+scanf("%d",&a);
+printf("\nenter a value for b : ");
+scanf("%d:",&b);
+c=a+b;
+printf("\nthe sum of %d and %d is %d",a,b,c);
+getch();
+}
+
